@@ -1,0 +1,84 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.3.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "42b7727"
+  },
+  "schemaVersion": 13,
+  "id": "provide-personal-data-0uvwl7p",
+  "components": [
+    {
+      "text": "# Please provide your personal information",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1fh6o5c",
+        "columns": null
+      },
+      "id": "Field_1yjvszk"
+    },
+    {
+      "label": "Email Address",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0xejavr",
+        "columns": null
+      },
+      "id": "Field_0higsjk",
+      "key": "email",
+      "disabled": false
+    },
+    {
+      "label": "Post Address",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_13xqhmm",
+        "columns": null
+      },
+      "id": "Field_06if3rv",
+      "key": "address"
+    },
+    {
+      "label": "Receiver",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0gc5nsx",
+        "columns": null
+      },
+      "id": "Field_1vx4vv1",
+      "key": "recName"
+    },
+    {
+      "text": "# Which ticket type do you prefer?",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0z1nz5a",
+        "columns": null
+      },
+      "id": "Field_1mibyva"
+    },
+    {
+      "values": [
+        {
+          "label": "Paper",
+          "value": "paper"
+        },
+        {
+          "label": "Digital",
+          "value": "digital"
+        }
+      ],
+      "label": "Ticket Type",
+      "type": "radio",
+      "layout": {
+        "row": "Row_0jb36ft",
+        "columns": null
+      },
+      "id": "Field_0158ngc",
+      "key": "ticketType"
+    }
+  ],
+  "type": "default"
+}

@@ -1,0 +1,59 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.3.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "42b7727"
+  },
+  "schemaVersion": 13,
+  "id": "choose-ticket-0sf0ty2",
+  "components": [
+    {
+      "text": "# Please choose number of tickets",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0fjhrgn",
+        "columns": null
+      },
+      "id": "Field_0mp3wzk"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5",
+          "value": "5"
+        },
+        {
+          "label": "6",
+          "value": "6"
+        }
+      ],
+      "label": "SelectNum",
+      "type": "select",
+      "layout": {
+        "row": "Row_002vry3",
+        "columns": null
+      },
+      "id": "Field_09idtn2",
+      "key": "ticketNum"
+    }
+  ],
+  "type": "default"
+}

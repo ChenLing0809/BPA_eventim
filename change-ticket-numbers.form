@@ -1,0 +1,33 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.3.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "42b7727"
+  },
+  "schemaVersion": 13,
+  "id": "change-ticket-numbers-013fc0b",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Do you want to change the number of ticket?",
+      "type": "radio",
+      "layout": {
+        "row": "Row_0nzypaw",
+        "columns": null
+      },
+      "id": "Field_15wdldx",
+      "key": "changeOpt"
+    }
+  ],
+  "type": "default"
+}

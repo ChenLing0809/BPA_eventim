@@ -1,7 +1,7 @@
 To run the EventimTicketBooking - add email.bpmn model, we implemented the service task setting in folder BPA_eventim/java/..
 
 In folder BPA_eventim/java/src/main/java/io/camunda/getstarted/..
-- ticket-sender -> deploy and generated an instance of the model
+- DeployAndStartInstance.java -> deploy and generated an instance of the model
 - EmailWorker.java -> define the details of the Jobworker
 - ZeebeClientFactory.java -> setting of the Client credentials (name: ticket-sender)
 

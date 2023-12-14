@@ -9,3 +9,6 @@ Here are the steps to run the model:
 1. run  **DeployAndStartInstance.java**
 2. run **EmailWorker.java**
 3. open the Camunda Web Modeler, run the model **EventimTicketBooking - add email.bpmn**; open the Tasklist to fullfill the user tasks.
+
+------------------------
+There is also a video recording of the whole process, please check **BPA_eventim_ticket_booking.mp4**
